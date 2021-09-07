@@ -233,3 +233,6 @@ TRYING MEDIA QUERIES @media screen and (min-width: 1024px) {
 a:hover.contact_form {
   color: rgb(146, 31, 131);
 }
+.btn {
+  display: block;
+}
