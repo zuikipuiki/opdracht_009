@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  width: auto;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  width: 600px;
+  margin: auto;
+  padding: 0;
+  color: rgb(59, 57, 57);
+  background-color: rgb(247, 192, 172);
+
+  line-height: 1.6em;
+}
+.h2_border {
+  padding: 0;
+  line-height: 1.6em;
+  margin: auto;
+  display: block;
+  font-size: 1.6rem;
+  text-align: center;
+
+  width: 80%;
+}
+
+.h3_border {
+  border: none;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  font-size: 1.6rem;
+  font-style: italic;
+
+  width: 100%;
+  color: rgb(119, 66, 66);
+}
+h1,
+h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: italic;
+  color: rgb(158, 35, 60);
+}
+.park-list {
+  list-style: none;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+a:hover {
+  color: rgb(65, 1, 12);
+}
+header {
+  margin: 70px;
+  padding: 0;
+  border-radius: 3px;
+}
+
+main {
+  border: 5px double rgb(128, 128, 128);
+  margin: 0;
+  border-radius: 3px;
+  padding-top: 30px;
+}
+
+article {
+  margin: 0 60px;
+}
+p {
+  margin: 30px;
+  font-style: normal;
+  line-height: normal;
+
+  width: 100;
+  color: black;
+}
+
+.foto_text_float {
+  width: 50%;
+  float: left;
+  border: none;
+  padding: 10px;
+
+  height: 445px;
+}
+
+.color_text {
+  background-color: rgb(245, 173, 90);
+  margin: 0;
+  padding: 0;
+}
+#text_1 {
+  margin: auto;
+  text-align: left;
+  color: rgb(59, 57, 57);
+  font-size: 1rem;
+}
+#text_2 {
+  margin: auto;
+  text-align: center;
+  color: rgb(59, 57, 57);
+  font-size: 1rem;
+}
+#text_3 {
+  margin: auto;
+  text-align: left;
+  color: rgb(59, 57, 57);
+  font-size: 1rem;
+}
+
+figure,
+figcaption {
+  margin: auto;
+}
+figcaption {
+  max-width: 225px;
+  margin-bottom: 25px;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid green;
+}
+a:hover {
+  color: red;
+}
+.my_img {
+  border: 1px outset gray;
+  border: 10px solid rgb(255, 255, 255);
+  border-style: outset;
+}
+
+ol,
+ul {
+  padding: none;
+  margin: 0;
+  line-height: 2.9em;
+  padding-left: 40px;
+  font-style: italic;
+  font-size: 1rem;
+  color: rgb(119, 66, 66);
+}
+h4 {
+  font-weight: normal;
+  font-style: italic;
+}
+.list_items {
+  list-style-type: none;
+  font-size: 1.5 rem;
+  font-weight: 600;
+}
+.img_list {
+  width: 100%;
+  align-items: center;
+}
+footer {
+  text-align: center;
+  color: rgb(95, 95, 95);
+}
+.footer_link {
+  color: rgb(95, 95, 95);
+  padding-top: 40px;
+}
+.about_me_logo,
+.park_img {
+  align-items: center;
+  margin: auto;
+  display: block;
+  border: 10px solid rgb(255, 255, 255);
+  border-style: outset;
+}
+.text_index3 {
+  text-align: center;
+  font-style: italic;
+}
+
+TRYING MEDIA QUERIES @media screen and (min-width: 1024px) {
+  body {
+    width: auto;
+    font-size: 1.2rem;
+    margin: auto;
+    color: grey;
+  }
+
+  .foto_text_float,
+  .h2_border {
+    display: none;
+  }
+
+  main {
+    padding: none;
+  }
+}
+@media (min-width: 1024px) {
+  body,
+  h1,
+  p {
+    background-color: rgb(179, 148, 148);
+    color: rgb(216, 216, 216);
+    font-size: 1.3rem;
+  }
+}
+.label {
+  display: block;
+  margin: auto;
+}
+.signup {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.pswd {
+  margin-bottom: 30px;
+}
+.contact_form {
+  display: block;
+  text-decoration: none;
+  border: 3px solid blue;
+  border-radius: 5px;
+  width: fit-content;
+  font-size: 1.3rem;
+  margin-left: 20px;
+}
+a:hover.contact_form {
+  color: rgb(146, 31, 131);
+}
